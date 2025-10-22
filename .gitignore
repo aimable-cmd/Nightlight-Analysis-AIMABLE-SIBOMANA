@@ -1,1 +1,13 @@
-nightlight-analysis/data/
+# Ignore Python environment files
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore large raw data files
+data/raw/
+
+# Keep notebooks and screenshots
+!*.ipynb
+!*.png
+!screenshots/
+
